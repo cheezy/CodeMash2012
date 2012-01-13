@@ -2,7 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     builder (3.0.0)
-    childprocess (0.2.5)
+    childprocess (0.2.9)
       ffi (~> 1.0.6)
     cucumber (1.1.4)
       builder (>= 2.1.2)
@@ -14,12 +14,12 @@ GEM
     faker (1.0.1)
       i18n (~> 0.4)
     ffi (1.0.11)
-    gherkin (2.7.2)
+    gherkin (2.7.3)
       json (>= 1.4.6)
     i18n (0.6.0)
     json (1.6.4)
     multi_json (1.0.4)
-    page-object (0.5.5)
+    page-object (0.6)
       selenium-webdriver (>= 2.16.0)
       watir-webdriver (>= 0.4.1)
     require_all (1.2.1)

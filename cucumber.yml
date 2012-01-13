@@ -1,1 +1,1 @@
-default:  --no-source --format html --out report.html
+default:  --no-source --format pretty
