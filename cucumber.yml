@@ -1,1 +1,1 @@
-default:  --no-source --format pretty
+default:  --no-source --format pretty --tags @focus

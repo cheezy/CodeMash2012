@@ -7,6 +7,7 @@ Feature: Adopting Puppies
   Background:
     Given I am on the puppy adoption site
 
+  @focus
   Scenario: Adopt a single puppy
     When I click the View Details button
     And I click the Adopt Me button
