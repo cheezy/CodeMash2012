@@ -5,7 +5,6 @@ require 'page-object/page_factory'
 require 'faker'
 require 'require_all'
 
-=begin
 require_all File.dirname(__FILE__) + '/pages'
 
 PageObject::PageFactory.routes = {
@@ -14,7 +13,7 @@ PageObject::PageFactory.routes = {
                [ShoppingCartPage, :complete_adoption],
                [CheckoutPage, :checkout]],
 }
-=end
+
 
 World(PageObject::PageFactory)
 
